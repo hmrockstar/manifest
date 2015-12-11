@@ -2,6 +2,7 @@ form {
   padding: 20px;
   margin: 0 auto;
   max-width: 600px;
+  min-height:100%;
 }
 form h1 {
 
@@ -283,6 +284,7 @@ form button:hover:before, form button:focus:before {
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
+  top:200px;
 }
 
 .popup h2 {
