@@ -1,0 +1,168 @@
+.mainbackground{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-color:#EB26D0;
+	top:0vh;
+	left:0vh;
+	z-index:0;
+}
+.circle1{
+	position:absolute;
+	background-color:white;
+	height:220px;
+	width:220px;
+	border-radius:50vh;
+	left:39%;
+	top:34%;
+	z-index:1;
+}
+.circle2{
+	position:absolute;
+	background-color:#EB26D0;
+	height:194px;
+	width:194px;
+	border-radius:50vh;
+	left:40%;
+	top:36%;
+	z-index:2;
+}
+.circle3{
+	position:absolute;
+	background-color:white;
+	height:168px;
+	width:168px;
+	border-radius:50vh;
+	left:41%;
+	top:38%;
+	z-index:3;
+}
+
+
+.down{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-color: purple;
+	top:90vh;
+	left:0vh;
+	z-index:0;
+}
+#sidetriangle{
+	position:absolute;
+	top:85vh;
+	left:5vh;
+	width: 0;
+	height: 0;
+	border-top: 100px  solid purple;
+	border-right: 100px solid transparent;
+	transform:rotate(45deg);
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+	z-index:2;
+	display:block;
+	
+}
+			
+#middleuptriangle{
+	position:absolute;
+	top:85vh;
+	left:95vh;
+	width: 0;
+	height: 0;
+	border-top: 100px  solid purple;
+	border-right: 100px solid transparent;
+	transform:rotate(45vh);
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+	z-index:0;
+}
+#middledowntriangle{
+	position:absolute;
+	top:88vh;
+	left:96vh;
+	width: 0;
+	height: 0;
+	border-bottom: 55px  solid white;
+	border-right: 55px solid transparent;
+	transform:rotate(315vh);
+	-ms-transform: rotate(315deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+    transform: rotate(315deg);
+	z-index:1;
+}
+.side{
+	position:absolute;
+	height:100.4%;
+	width:40%;
+	top:-23vh;
+	left:-35vw;
+	background-color: purple;
+	transform: rotate(25deg);
+	box-shadow: 7px 0px 7px #888888;
+	z-index:0;
+}
+.bars{
+	position:absolute;
+	top:2vh;
+	left:14vw;
+	color:purple;
+	cursor:pointer;
+	z-index:1;
+}
+
+.pagel{
+	position:absolute;
+	color:#EB26D0;
+	left:45%;
+	top:45%;
+	z-index:4;
+	
+}
+.page2{
+	position:absolute;
+	color:white;
+	z-index:1;
+	top:3vh;
+	left:6vh;
+}
+.start{
+	position:absolute;
+	background-color:purple;
+	height:90px;
+	width:90px;
+	left:47vw;
+	top:75vh;
+	border-radius:50%;
+	cursor:pointer;
+}
+#start{
+	
+	color:white;
+	
+}
+#downtriangle{
+	position:absolute;
+	top:63vh;
+	left:9vh;
+	width: 0;
+	height: 0;
+	border-top: 56px  solid white;
+	border-right: 56px solid transparent;
+	transform:rotate(225vh);
+	-ms-transform: rotate(225deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+    transform: rotate(225deg);
+	z-index:3;
+	display:block;
+}
