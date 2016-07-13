@@ -1,4 +1,4 @@
-# Hostipal Managment System
+# Hospital Management System 
 Manifest
  
 http://hmrockstar.github.io/manifest
